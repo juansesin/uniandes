@@ -1,0 +1,140 @@
+#
+# robots.txt
+#
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+User-agent: *
+Crawl-delay: 10
+# CSS, JS, Images
+Allow: /sitemap.xml
+Allow: /misc/*.css$
+Allow: /misc/*.css?
+Allow: /misc/*.js$
+Allow: /misc/*.js?
+Allow: /misc/*.gif
+Allow: /misc/*.jpg
+Allow: /misc/*.jpeg
+Allow: /misc/*.png
+Allow: /modules/*.css$
+Allow: /modules/*.css?
+Allow: /modules/*.js$
+Allow: /modules/*.js?
+Allow: /modules/*.gif
+Allow: /modules/*.jpg
+Allow: /modules/*.jpeg
+Allow: /modules/*.png
+Allow: /profiles/*.css$
+Allow: /profiles/*.css?
+Allow: /profiles/*.js$
+Allow: /profiles/*.js?
+Allow: /profiles/*.gif
+Allow: /profiles/*.jpg
+Allow: /profiles/*.jpeg
+Allow: /profiles/*.png
+Allow: /themes/*.css$
+Allow: /themes/*.css?
+Allow: /themes/*.js$
+Allow: /themes/*.js?
+Allow: /themes/*.gif
+Allow: /themes/*.jpg
+Allow: /themes/*.jpeg
+Allow: /themes/*.png
+# Directories
+Disallow: /includes/
+Disallow: /misc/
+Disallow: /modules/
+Disallow: /profiles/
+Disallow: /scripts/
+Disallow: /themes/
+# Files
+Disallow: /CHANGELOG.txt
+Disallow: /cron.php
+Disallow: /INSTALL.mysql.txt
+Disallow: /INSTALL.pgsql.txt
+Disallow: /INSTALL.sqlite.txt
+Disallow: /install.php
+Disallow: /INSTALL.txt
+Disallow: /LICENSE.txt
+Disallow: /MAINTAINERS.txt
+Disallow: /update.php
+Disallow: /UPGRADE.txt
+Disallow: /xmlrpc.php
+# Paths (clean URLs)
+Disallow: /admin/
+Disallow: /comment/reply/
+Disallow: /filter/tips/
+Disallow: /node/add/
+Disallow: /search/
+Disallow: /user/register/
+Disallow: /user/password/
+Disallow: /user/login/
+Disallow: /user/logout/
+# Paths (no clean URLs)
+Disallow: /?q=admin/
+Disallow: /?q=comment/reply/
+Disallow: /?q=filter/tips/
+Disallow: /?q=node/add/
+Disallow: /?q=search/
+Disallow: /?q=user/password/
+Disallow: /?q=user/register/
+Disallow: /?q=user/login/
+Disallow: /?q=user/logout/
+Disallow: /es/valores/
+Disallow: /es/noticias/comunidad/talleres-revision-y-actualizacion-de-valores-uniandes/
+Disallow: /tag/
+Disallow: /tags/
+Disallow: /taxonomy/
+# Nodes 
+Disallow: /node?page=4&option=com_blog_calendar&Itemid=666&year=2017&month=02&day=03&modid=126
+Disallow: /node?page=18
+Disallow: /node?page=4&option=com_blog_calendar&Itemid=666&year=2016&month=11&day=17&modid=126
+Disallow: /node?page=4&option=com_blog_calendar&Itemid=666&year=2016&month=10&day=25&modid=126
+Disallow: /?v=1392752313000/_/jcr:system/jcr:versionStorage/9a/11/f6/9a11f6fe-281a-45ce-ae04-28a2721e76ef/1.5/jcr:frozenNode
+Disallow: /es/node/?page=2
+Disallow: /es/node/?page=3
+Disallow: /es/node/?page=4
+Disallow: /es/node/?page=5
+Disallow: /es/node/?page=6
+Disallow: /es/node/?page=7
+Disallow: /es/node/?page=8
+Disallow: /es/node/?page=20
+Disallow: /node?page=21
+Disallow: /node?page=13
+Disallow: /node?page=7
+Disallow: /node?page=8
+Disallow: /node?page=20
+Disallow: /node?page=22
+Disallow: /node?page=1
+Disallow: /node?page=5
+Disallow: /node?page=9
+Disallow: /node?page=23
+Disallow: /node?page=16
+Disallow: /node?page=4
+Disallow: /node?page=5&option=com_content&view=article&id=2862
+Disallow: /node?page=5&option=com_pageflip&view=revista&Itemid=744
+Disallow: /node?page=5&option=com_content&view=article&id=3095
+Disallow: /node?page=12&option=com_content&view=article&id=3074
+Disallow: /node?page=10&option=com_pageflip&view=revista&Itemid=744
+Disallow: /node?page=8&option=com_content&view=article&id=3095
+Disallow: /node?page=2&option=com_blog_calendar&month=3&year=2014
+Disallow: /node?page=4&option=com_content&amp%3Bview=article&amp%3Bid=657
+Disallow: /node?page=15&option=com_content&amp%3Bview=article&amp%3Bid=657
+Disallow: /node?page=14&option=com_content&amp%3Bview=article&amp%3Bid=657
+Disallow: /node?page=3&option=com_blog_calendar&Itemid=666&year=2016&month=05&day=25&modid=126
+Disallow: /node?page=11&option=com_blog_calendar&Itemid=666&year=2016&month=05&day=25&modid=126
+Disallow: /node?page=4&option=com_blog_calendar&Itemid=666&year=2016&month=05&day=25&modid=126
+Disallow: /node?page=5&v=1392752313000/_/jcr%3Asystem/jcr%3AversionStorage/96/5a/22/965a22ac-d7b1-4165-9ce4-84cdb02584d6/1.4/jcr%3AfrozenNode
+Disallow: /node?page=7&v=1392752313000/_/jcr%3Asystem/jcr%3AversionStorage/96/5a/22/965a22ac-d7b1-4165-9ce4-84cdb02584d6/1.4/jcr%3AfrozenNode
+Disallow: /node?page=3&v=1392752313000/_/jcr%3Asystem/jcr%3AversionStorage/96/5a/22/965a22ac-d7b1-4165-9ce4-84cdb02584d6/1.4/jcr%3AfrozenNode
+# Sitemap Files
+Sitemap: https://uniandes.edu.co/sitemap.xml
